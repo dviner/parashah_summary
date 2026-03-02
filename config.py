@@ -17,7 +17,7 @@ PODCAST_EXPLICIT = "clean"
 PODCAST_BASE_URL = "https://dviner.github.io/parashah_summary"
 
 # Path to cover art relative to docs/ — 3000x3000px JPEG or PNG, under 30MB
-COVER_IMAGE_FILENAME = "cover.jpg"
+COVER_IMAGE_FILENAME = "bb1_classic_3000.png"
 
 # --- ElevenLabs ---
 # Get your API key from https://elevenlabs.io

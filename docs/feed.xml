@@ -1,28 +1,62 @@
 <?xml version="1.0" ?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  
+  
   <channel>
+    
+    
     <title>Parashah in Brief</title>
+    
+    
     <link>https://dviner.github.io/parashah_summary</link>
+    
+    
     <language>en</language>
+    
+    
     <description>A weekly podcast summarizing the Jewish Torah portion (Parashah) in under 5 minutes. New episode every week following the Ashkenazi diaspora reading schedule.</description>
-    <copyright>&#169; 2026 Dave Viner</copyright>
+    
+    
+    <copyright>© 2026 Dave Viner</copyright>
+    
+    
     <atom:link href="https://dviner.github.io/parashah_summary/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    
     <itunes:author>Dave Viner</itunes:author>
+    
+    
     <itunes:owner>
+      
+      
       <itunes:name>Dave Viner</itunes:name>
+      
+      
       <itunes:email>parashahpodcaster@gmail.com</itunes:email>
+      
+    
     </itunes:owner>
-    <itunes:image href="https://dviner.github.io/parashah_summary/cover.jpg"/>
+    
+    
+    <itunes:image href="https://dviner.github.io/parashah_summary/bb1_classic_3000.png"/>
+    
+    
     <itunes:category text="Religion &amp; Spirituality"/>
+    
+    
     <itunes:explicit>clean</itunes:explicit>
+    
+    
     <item>
-      <title>Ki Tisa &#8212; 2026-03-02</title>
+      <title>Ki Tisa — 2026-03-02</title>
       <description>This week's Torah portion is Ki Tisa (Exodus 30:11-34:35). A brief summary of the key events and themes.</description>
-      <pubDate>Mon, 02 Mar 2026 00:42:17 +0000</pubDate>
+      <pubDate>Mon, 02 Mar 2026 00:57:22 +0000</pubDate>
       <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-02.mp3</guid>
-      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-03-02.mp3" length="2352736" type="audio/mpeg"/>
-      <itunes:duration>00:02:27</itunes:duration>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-03-02.mp3" length="2219825" type="audio/mpeg"/>
+      <itunes:duration>00:02:18</itunes:duration>
       <itunes:explicit>clean</itunes:explicit>
     </item>
   </channel>
+  
+
 </rss>
