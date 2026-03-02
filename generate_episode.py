@@ -29,16 +29,21 @@ the Jewish weekly Torah portion in under 5 minutes.
 Below is the English text of this week's Torah portion, called {parashah_name}.
 
 Write a podcast episode script that is approximately 350 words — \
-suitable for a 2.5 to 3 minute recording. Structure it as follows:
+suitable for a 2.5 to 3 minute recording. The script must have exactly three parts, \
+clearly separated by a blank line between each part:
 
-1. Greeting and introduction (1-2 sentences): Welcome listeners and name the Parashah.
-2. Story summary (3-5 sentences): What happens in this portion? Summarize the key events.
-3. Themes and lessons (2-4 sentences): What are 1-2 meaningful themes or takeaways?
-4. Closing (1-2 sentences): A brief, warm sign-off.
+Part 1 — Introduction (2-3 sentences): Welcome listeners warmly and introduce the \
+name of this week's Torah portion and where it falls in the larger story.
 
-Write in a warm, clear, conversational tone. Do not include stage directions, \
-section headers, or formatting — just the spoken words. Do not use Hebrew terms \
-without briefly explaining them in English.
+Part 2 — Story Summary (8-12 sentences): Retell the events of the portion in detail. \
+Cover the key scenes and characters. Make it vivid and engaging — help the listener \
+feel like they are hearing the story unfold.
+
+Part 3 — Closing (1-2 sentences): A brief, warm sign-off.
+
+Write in a warm, clear, conversational tone. Do not include section labels, headers, \
+stage directions, or any formatting — just the spoken words separated by blank lines. \
+Do not use Hebrew terms without briefly explaining them in English.
 
 Torah portion text:
 {parashah_text}
