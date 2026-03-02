@@ -120,6 +120,14 @@ def add_episode(
 
     mp3_url = f"{PODCAST_BASE_URL}/episodes/{mp3_filename}"
 
+    # Remove any existing items with the same GUID to prevent duplicates
+    existing_items = channel.findall("item")
+    for existing in existing_items:
+        guid = existing.findtext("guid")
+        if guid == mp3_url:
+            channel.remove(existing)
+            print(f"  Replaced existing episode entry for {mp3_filename}")
+
     # Build the new <item>
     item = ET.Element("item")
     ET.SubElement(item, "title").text = title
