@@ -45,8 +45,11 @@ listener feel like they are hearing the story unfold.
 
 Part 3 — Closing (1-2 sentences): A brief, warm sign-off.
 
+Between each part, output exactly this on its own line:
+<break time="1.5s" />
+
 Write in a warm, clear, conversational tone. Do not include section labels, headers, \
-stage directions, or any formatting — just the spoken words separated by blank lines. \
+stage directions, or any other formatting. \
 Do not use Hebrew terms without briefly explaining them in English.
 
 Torah portion text:
