@@ -1,7 +1,7 @@
 import os
 
 # --- Podcast Metadata ---
-PODCAST_TITLE = "Parashah in 5"
+PODCAST_TITLE = "Parashah in Brief"
 PODCAST_DESCRIPTION = (
     "A weekly podcast summarizing the Jewish Torah portion (Parashah) "
     "in under 5 minutes. New episode every week following the Ashkenazi diaspora reading schedule."

@@ -23,7 +23,7 @@ from rss_manager import add_episode
 
 
 EPISODE_SCRIPT_PROMPT = """\
-You are the host of a short weekly podcast called "Parashah in 5" that summarizes \
+You are the host of a short weekly podcast called "Parashah in Brief" that summarizes \
 the Jewish weekly Torah portion in under 5 minutes.
 
 Below is the English text of this week's Torah portion, called {parashah_name} \
