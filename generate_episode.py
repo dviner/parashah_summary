@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 
 import anthropic
 
-from config import ANTHROPIC_API_KEY, ANTHROPIC_MODEL, EPISODES_DIR, PODCAST_BASE_URL
+from config import ANTHROPIC_API_KEY, ANTHROPIC_MODEL, EPISODES_DIR, SCRIPTS_DIR, PODCAST_BASE_URL
 from sefaria_client import get_current_parashah, get_parashah_text
 from elevenlabs_client import text_to_mp3
 from rss_manager import add_episode
@@ -100,6 +100,16 @@ def generate_episode() -> None:
     )
     script = message.content[0].text.strip()
     print(f"  Script generated ({len(script)} characters, ~{len(script.split())} words)")
+
+    # Save script to scripts/YYYY-MM-DD.txt
+    os.makedirs(SCRIPTS_DIR, exist_ok=True)
+    script_path = os.path.join(SCRIPTS_DIR, f"{date_str}.txt")
+    with open(script_path, "w", encoding="utf-8") as f:
+        f.write(f"Parashah: {parashah['name']} ({parashah['ref']})\n")
+        f.write(f"Date: {date_str}\n\n")
+        f.write(script)
+    print(f"  Script saved to: {script_path}")
+    print(f"\n--- SCRIPT ---\n{script}\n--- END SCRIPT ---\n")
 
     # Step 4: Convert script to MP3
     print("Converting script to audio with ElevenLabs...")

@@ -47,3 +47,4 @@ PARASHAH_VERSE_LIMIT = 125  # Max verses to send to Claude for summarization
 DOCS_DIR = "docs"
 EPISODES_DIR = f"{DOCS_DIR}/episodes"
 FEED_PATH = f"{DOCS_DIR}/feed.xml"
+SCRIPTS_DIR = "scripts"
