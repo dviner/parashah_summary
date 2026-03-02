@@ -26,7 +26,8 @@ EPISODE_SCRIPT_PROMPT = """\
 You are the host of a short weekly podcast called "Parashah in 5" that summarizes \
 the Jewish weekly Torah portion in under 5 minutes.
 
-Below is the English text of this week's Torah portion, called {parashah_name}.
+Below is the English text of this week's Torah portion, called {parashah_name} \
+({parashah_ref}).
 
 Write a podcast episode script that is approximately 350 words — \
 suitable for a 2.5 to 3 minute recording. The script must have exactly three parts, \
@@ -35,9 +36,12 @@ clearly separated by a blank line between each part:
 Part 1 — Introduction (2-3 sentences): Welcome listeners warmly and introduce the \
 name of this week's Torah portion and where it falls in the larger story.
 
-Part 2 — Story Summary (8-12 sentences): Retell the events of the portion in detail. \
-Cover the key scenes and characters. Make it vivid and engaging — help the listener \
-feel like they are hearing the story unfold.
+Part 2 — Story Summary (8-12 sentences): Begin with one sentence stating the specific \
+book, chapter, and verse range being summarized — written out in natural spoken English, \
+for example: "Here is our summary of Exodus, chapter thirty, verse eleven, \
+through chapter thirty-four, verse thirty-five." Then retell the events of the portion \
+in detail. Cover the key scenes and characters. Make it vivid and engaging — help the \
+listener feel like they are hearing the story unfold.
 
 Part 3 — Closing (1-2 sentences): A brief, warm sign-off.
 
@@ -96,6 +100,7 @@ def generate_episode() -> None:
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     prompt = EPISODE_SCRIPT_PROMPT.format(
         parashah_name=parashah["name"],
+        parashah_ref=parashah["ref"],
         parashah_text=parashah_text,
     )
     message = client.messages.create(
