@@ -12,7 +12,11 @@
   
   
   
+  
+  
   <channel>
+    
+    
     
     
     
@@ -38,7 +42,11 @@
     
     
     
+    
+    
     <link>https://dviner.github.io/parashah_summary</link>
+    
+    
     
     
     
@@ -64,7 +72,11 @@
     
     
     
+    
+    
     <description>A weekly podcast summarizing the Jewish Torah portion (Parashah) in under 5 minutes. New episode every week following the Ashkenazi diaspora reading schedule.</description>
+    
+    
     
     
     
@@ -90,7 +102,11 @@
     
     
     
+    
+    
     <atom:link href="https://dviner.github.io/parashah_summary/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    
     
     
     
@@ -116,7 +132,11 @@
     
     
     
+    
+    
     <itunes:owner>
+      
+      
       
       
       
@@ -142,6 +162,8 @@
       
       
       
+      
+      
       <itunes:email>parashahpodcaster@gmail.com</itunes:email>
       
       
@@ -149,6 +171,8 @@
       
       
       
+      
+    
     
     
     
@@ -156,6 +180,8 @@
     
     
     </itunes:owner>
+    
+    
     
     
     
@@ -181,7 +207,11 @@
     
     
     
+    
+    
     <itunes:category text="Religion &amp; Spirituality"/>
+    
+    
     
     
     
@@ -207,43 +237,92 @@
     
     
     
+    
+    
     <item>
-      <title>Pesach Shabbat Chol haMoed — 2026-03-29</title>
-      <description>This week's Torah portion is Pesach Shabbat Chol haMoed (Exodus 33:12-34:26). A brief summary of the key events and themes.</description>
-      <pubDate>Sun, 29 Mar 2026 09:17:14 +0000</pubDate>
-      <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-29.mp3</guid>
-      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-03-29.mp3" length="2128292" type="audio/mpeg"/>
-      <itunes:duration>00:02:12</itunes:duration>
+      <title>Shmini — 2026-04-05</title>
+      <description>This week's Torah portion is Shmini (Leviticus 9:1-11:47). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 05 Apr 2026 09:19:28 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-04-05.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-04-05.mp3" length="2184716" type="audio/mpeg"/>
+      <itunes:duration>00:02:16</itunes:duration>
       <itunes:explicit>clean</itunes:explicit>
     </item>
     <item>
+      
+      
+      <title>Pesach Shabbat Chol haMoed — 2026-03-29</title>
+      
+      
+      <description>This week's Torah portion is Pesach Shabbat Chol haMoed (Exodus 33:12-34:26). A brief summary of the key events and themes.</description>
+      
+      
+      <pubDate>Sun, 29 Mar 2026 09:17:14 +0000</pubDate>
+      
+      
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-29.mp3</guid>
+      
+      
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-03-29.mp3" length="2128292" type="audio/mpeg"/>
+      
+      
+      <itunes:duration>00:02:12</itunes:duration>
+      
+      
+      <itunes:explicit>clean</itunes:explicit>
+      
+    
+    </item>
+    
+    
+    <item>
+      
+      
       
       
       <title>Tzav — 2026-03-22</title>
       
       
+      
+      
       <description>This week's Torah portion is Tzav (Leviticus 6:1-8:36). A brief summary of the key events and themes.</description>
+      
+      
       
       
       <pubDate>Sun, 22 Mar 2026 09:13:41 +0000</pubDate>
       
       
+      
+      
       <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-22.mp3</guid>
+      
+      
       
       
       <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-03-22.mp3" length="2291296" type="audio/mpeg"/>
       
       
+      
+      
       <itunes:duration>00:02:23</itunes:duration>
+      
+      
       
       
       <itunes:explicit>clean</itunes:explicit>
       
+      
+    
     
     </item>
     
     
+    
+    
     <item>
+      
+      
       
       
       
@@ -253,7 +332,11 @@
       
       
       
+      
+      
       <description>This week's Torah portion is Vayikra (Leviticus 1:1-5:26). A brief summary of the key events and themes.</description>
+      
+      
       
       
       
@@ -263,7 +346,11 @@
       
       
       
+      
+      
       <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-15.mp3</guid>
+      
+      
       
       
       
@@ -273,7 +360,11 @@
       
       
       
+      
+      
       <itunes:duration>00:02:23</itunes:duration>
+      
+      
       
       
       
@@ -281,6 +372,8 @@
       <itunes:explicit>clean</itunes:explicit>
       
       
+      
+    
     
     
     </item>
@@ -288,7 +381,11 @@
     
     
     
+    
+    
     <item>
+      
+      
       
       
       
@@ -302,7 +399,11 @@
       
       
       
+      
+      
       <description>This week's Torah portion is Vayakhel-Pekudei (Exodus 35:1-40:38). A brief summary of the key events and themes.</description>
+      
+      
       
       
       
@@ -316,7 +417,11 @@
       
       
       
+      
+      
       <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-08.mp3</guid>
+      
+      
       
       
       
@@ -330,7 +435,11 @@
       
       
       
+      
+      
       <itunes:duration>00:02:17</itunes:duration>
+      
+      
       
       
       
@@ -341,6 +450,8 @@
       
       
       
+      
+    
     
     
     
@@ -351,7 +462,11 @@
     
     
     
+    
+    
     <item>
+      
+      
       
       
       
@@ -369,7 +484,11 @@
       
       
       
+      
+      
       <description>This week's Torah portion is Ki Tisa (Exodus 30:11-34:35). A brief summary of the key events and themes.</description>
+      
+      
       
       
       
@@ -387,7 +506,11 @@
       
       
       
+      
+      
       <guid>https://dviner.github.io/parashah_summary/episodes/2026-03-02.mp3</guid>
+      
+      
       
       
       
@@ -405,7 +528,11 @@
       
       
       
+      
+      
       <itunes:duration>00:02:09</itunes:duration>
+      
+      
       
       
       
@@ -419,6 +546,8 @@
       
       
       
+      
+    
     
     
     
@@ -428,6 +557,8 @@
     
     
     
+    
+  
   
   
   
@@ -439,6 +570,8 @@
   
   
   
+  
+
 
 
 
