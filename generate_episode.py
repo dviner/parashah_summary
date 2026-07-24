@@ -20,6 +20,7 @@ from config import ANTHROPIC_API_KEY, ANTHROPIC_MODEL, EPISODES_DIR, SCRIPTS_DIR
 from sefaria_client import get_current_parashah, get_parashah_text
 from elevenlabs_client import text_to_mp3
 from rss_manager import add_episode
+from srt_generator import generate_srt
 
 
 EPISODE_SCRIPT_PROMPT = """\
@@ -126,7 +127,12 @@ def generate_episode() -> None:
 
     # Step 4: Convert script to MP3
     print("Converting script to audio with ElevenLabs...")
-    text_to_mp3(script, mp3_path)
+    alignment = text_to_mp3(script, mp3_path)
+
+    # Step 4b: Generate SRT transcript
+    srt_filename = f"{date_str}.srt"
+    srt_path = os.path.join(EPISODES_DIR, srt_filename)
+    generate_srt(alignment, srt_path)
 
     # Step 5: Update the RSS feed
     mp3_size = os.path.getsize(mp3_path)
@@ -145,10 +151,12 @@ def generate_episode() -> None:
         mp3_filename=mp3_filename,
         mp3_size_bytes=mp3_size,
         duration_seconds=duration,
+        srt_filename=srt_filename,
     )
 
     print(f"\nEpisode complete!")
     print(f"  Audio: {mp3_path}")
+    print(f"  Transcript: {srt_path}")
     print(f"  Duration: {duration // 60}m {duration % 60}s")
     print(f"  RSS feed updated: docs/feed.xml")
     print(f"  RSS URL (after push): {PODCAST_BASE_URL}/feed.xml")
