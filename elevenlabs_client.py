@@ -12,6 +12,7 @@ import re
 import tempfile
 
 import requests
+from mutagen.mp3 import MP3 as MutagenMP3
 from pydub import AudioSegment
 
 from config import (
@@ -145,9 +146,10 @@ def text_to_mp3(script_text: str, output_path: str) -> dict:
             alignments.append(alignment)
             silence_durations.append(silence)
 
-            # Duration = last end time in the alignment data
-            end_times = alignment.get("character_end_times_seconds", [])
-            chunk_durations.append(end_times[-1] if end_times else 0.0)
+            # Use mutagen for duration — reads MP3 headers directly without
+            # invoking ffprobe, and avoids decoding the file twice (pydub
+            # will decode it again during stitching below).
+            chunk_durations.append(MutagenMP3(chunk_path).info.length)
 
         # Stitch chunks with pydub
         combined_audio = AudioSegment.empty()
