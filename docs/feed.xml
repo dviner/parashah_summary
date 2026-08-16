@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Ki Teitzei — 2026-08-16</title>
+      <description>This week's Torah portion is Ki Teitzei (Deuteronomy 21:10-25:19). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 16 Aug 2026 16:33:04 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-08-16.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-08-16.mp3" length="1149614" type="audio/mpeg" />
+      <itunes:duration>00:02:23</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-08-16.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Re'eh — 2026-08-02</title>
       <description>This week's Torah portion is Re'eh (Deuteronomy 11:26-16:17). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 02 Aug 2026 15:04:16 +0000</pubDate>
