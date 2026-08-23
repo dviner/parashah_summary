@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Ki Tavo — 2026-08-23</title>
+      <description>This week's Torah portion is Ki Tavo (Deuteronomy 26:1-29:8). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 23 Aug 2026 09:31:30 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-08-23.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-08-23.mp3" length="1369252" type="audio/mpeg" />
+      <itunes:duration>00:02:51</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-08-23.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Ki Teitzei — 2026-08-16</title>
       <description>This week's Torah portion is Ki Teitzei (Deuteronomy 21:10-25:19). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 16 Aug 2026 16:33:04 +0000</pubDate>
