@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Sukkot I — 2026-09-20</title>
+      <description>This week's Torah portion is Sukkot I (Leviticus 22:26-23:44). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 20 Sep 2026 13:30:51 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-09-20.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-09-20.mp3" length="1171975" type="audio/mpeg" />
+      <itunes:duration>00:02:26</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-09-20.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Ha'Azinu — 2026-09-13</title>
       <description>This week's Torah portion is Ha'Azinu (Deuteronomy 32:1-52). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 13 Sep 2026 13:43:47 +0000</pubDate>
