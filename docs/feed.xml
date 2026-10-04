@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Bereshit — 2026-10-04</title>
+      <description>This week's Torah portion is Bereshit (Genesis 1:1-6:8). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 04 Oct 2026 14:42:39 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-10-04.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-10-04.mp3" length="1112625" type="audio/mpeg" />
+      <itunes:duration>00:02:19</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-10-04.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Shmini Atzeret — 2026-09-27</title>
       <description>This week's Torah portion is Shmini Atzeret (Deuteronomy 14:22-16:17). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 27 Sep 2026 14:37:30 +0000</pubDate>
