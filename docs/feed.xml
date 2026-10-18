@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Lech-Lecha — 2026-10-18</title>
+      <description>This week's Torah portion is Lech-Lecha (Genesis 12:1-17:27). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 18 Oct 2026 13:05:31 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-10-18.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-10-18.mp3" length="1245745" type="audio/mpeg" />
+      <itunes:duration>00:02:35</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-10-18.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Noach — 2026-10-11</title>
       <description>This week's Torah portion is Noach (Genesis 6:9-11:32). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 11 Oct 2026 15:28:28 +0000</pubDate>
