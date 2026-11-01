@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Chayei Sara — 2026-11-01</title>
+      <description>This week's Torah portion is Chayei Sara (Genesis 23:1-25:18). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 01 Nov 2026 15:53:26 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-11-01.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-11-01.mp3" length="1187440" type="audio/mpeg" />
+      <itunes:duration>00:02:28</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-11-01.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Vayera — 2026-10-25</title>
       <description>This week's Torah portion is Vayera (Genesis 18:1-22:24). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 25 Oct 2026 13:37:46 +0000</pubDate>
