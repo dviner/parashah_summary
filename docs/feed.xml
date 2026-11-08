@@ -16,6 +16,16 @@
     <itunes:category text="Religion &amp; Spirituality" />
     <itunes:explicit>clean</itunes:explicit>
     <item>
+      <title>Toldot — 2026-11-08</title>
+      <description>This week's Torah portion is Toldot (Genesis 25:19-28:9). A brief summary of the key events and themes.</description>
+      <pubDate>Sun, 08 Nov 2026 15:51:52 +0000</pubDate>
+      <guid>https://dviner.github.io/parashah_summary/episodes/2026-11-08.mp3</guid>
+      <enclosure url="https://dviner.github.io/parashah_summary/episodes/2026-11-08.mp3" length="1193082" type="audio/mpeg" />
+      <itunes:duration>00:02:29</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <podcast:transcript url="https://dviner.github.io/parashah_summary/episodes/2026-11-08.srt" type="application/srt" />
+    </item>
+    <item>
       <title>Chayei Sara — 2026-11-01</title>
       <description>This week's Torah portion is Chayei Sara (Genesis 23:1-25:18). A brief summary of the key events and themes.</description>
       <pubDate>Sun, 01 Nov 2026 15:53:26 +0000</pubDate>
